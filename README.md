@@ -1,6 +1,21 @@
 # MacbookPro14-2Ubuntu
 A guide for installing Ubuntu LTS 20.04 on the Macbook Pro 14,2 Model
 
+What works:
+*Brightness control
+*Camera input
+*Keyboard
+*Trackpad
+*Audio I/O
+*Sleep
+*5 GHz Wifi band only
+
+What doesn't work:
+*2.4 GHz Wifi band
+
+To be improved:
+Any help with instructions for getting 2.4 GHz wifi networking enabled will be greatly appreciated!
+
 1. Install modified iso from here:
 
 https://github.com/marcosfad/mbp-ubuntu/releases
@@ -16,7 +31,7 @@ If you have an adapter plugged into your macbook, you will need to run the follo
 ```
 sudo lspci -nnk | grep -i net -A3
 ```
-3. Install audio (Enables Audio Output)
+3. Install audio (Enables Audio Speaker Output)
 
 Run the following commands as root in your terminal:
 ```
@@ -26,7 +41,7 @@ cd snd_hda_macbookpro/
 ./install.cirrus.driver.sh
 reboot
 ```
-4. Enable native microphone (Enables audio input)
+4. Enable native microphone (Enables Audio Microphone Input)
 
 Run the following command in the terminal:
 ```
