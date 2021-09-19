@@ -2,16 +2,16 @@
 A guide for installing Ubuntu LTS 20.04 on the Macbook Pro 14,2 Model
 
 What works:
-*Brightness control
-*Camera input
-*Keyboard
-*Trackpad
-*Audio I/O
-*Sleep
-*5 GHz Wifi band only
+* Brightness control
+* Camera input
+* Keyboard
+* Trackpad
+* Audio I/O
+* Sleep
+* 5 GHz Wifi band only
 
 What doesn't work:
-*2.4 GHz Wifi band
+* 2.4 GHz Wifi band
 
 To be improved:
 Any help with instructions for getting 2.4 GHz wifi networking enabled will be greatly appreciated!
