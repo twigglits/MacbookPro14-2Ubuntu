@@ -1,5 +1,5 @@
 # MacbookPro14-2Ubuntu
-A guide for installing Ubuntu LTS 20.04 on the Macbook Pro 14,2 Model
+A guide for installing Ubuntu LTS 20.04 on the Macbook Pro 14,2 Model.
 
 What works:
 * Brightness control
@@ -16,11 +16,13 @@ What doesn't work:
 To be improved:
 Any help with instructions for getting 2.4 GHz wifi networking enabled will be greatly appreciated!
 
-1. Install modified iso from here:
+INSTRUCTIONS:
+
+1. Create bootable usb using the modified iso located here:
 
 https://github.com/marcosfad/mbp-ubuntu/releases
 
-This modified iso includes drivers for the macbookpro's touchpad, touchbar, keyboard as well as other drivers
+This modified iso includes drivers for the macbookpro's touchpad, touchbar, keyboard as well as other drivers.
 
 Once you've booted into ubuntu:
 
