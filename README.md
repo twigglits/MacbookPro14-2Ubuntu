@@ -52,6 +52,15 @@ arecord -l
 
 5. Wifi drivers
 
+To get the wifi adapter to show up run in the terminal:
+```
+sudo apt-get purge bcmwl-kernel-source
+sudo apt update
+sudo update-pciids
+sudo apt install firmware-b43-installer
+sudo reboot
+```
+
 type the following into the terminal:
 ```
 cd Downloads
@@ -73,6 +82,21 @@ Then, type the following to disable cold boot, so that we can hibernation works:
 ```
 sudo echo 0 > /sys/bus/pci/devices/0000\\:01\\:00.0/d3cold_allowed
 ```
+Sources:
+
+A big thank you to all of the people that have worked on solving this:
+
+@marcosfad for the modified ubuntu iso located located here:
+https://github.com/marcosfad/mbp-ubuntu/releases
+
+@davidjo for his contribution of the audio driver located here:
+https://github.com/davidjo/snd_hda_macbookpro
+
+nonylus, Andy Holst, Simon Siebert for their contributions here: 
+https://bugzilla.kernel.org/show_bug.cgi?id=193121#c52
+
+
+
 
 
 
